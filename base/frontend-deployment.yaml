@@ -15,8 +15,8 @@ spec:
         app: demo-fargate
     spec:
       containers:
-        - name: demo-fargate
-          image: 596152156334.dkr.ecr.ap-northeast-2.amazonaws.com/demo-frontend:latest
+        - name: demo-frontend
+          image: 596152156334.dkr.ecr.sap-northeast-2.amazonaws.com/demo-frontend:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 80
